@@ -16,7 +16,7 @@ const getDadJoke = async () => {
     const data = await res.json();
     return data.joke;
   } catch (e) {
-    return "NO JOKES AVAILABLE! SORRY :(";
+    return "Prueba commit vs :(";
   }
 };
 
